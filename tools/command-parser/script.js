@@ -1,0 +1,1 @@
+const dlt645Packet=new Uint8Array([104,17,34,51,68,85,102,104,17,4,51,51,51,51,210,22]).buffer;loadAndParseProtocol("../../config/protocols/frame/dlt645-2007.json",dlt645Packet).then(result=>{console.log(result)});
